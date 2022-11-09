@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:check":"npx rome check src",
+    "lint:write":"npx rome format src  --write"
   },
   "dependencies": {
     "react": "^18.2.0",
